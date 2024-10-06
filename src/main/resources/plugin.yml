@@ -1,0 +1,25 @@
+name: skz2
+version: '${project.version}'
+main: net.sashegdev.skz2.malus
+api-version: '1.21'
+
+commands:
+  skzReload:
+    description: Reloads the configuration file.
+    usage: /<command>
+    permission: skz.reload
+    permission-message: You do not have permission to use this command.
+
+  phone:
+    description: no
+    usage: /<command>
+    permission: skz.phone
+    permission-message: no.
+
+permissions:
+  skz.reload:
+    description: Allows the player to reload the plugin's configuration.
+    default: op
+  skz.phone:
+    description: phone.
+    default: op

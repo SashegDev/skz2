@@ -1,0 +1,20 @@
+phone_location:
+  world: world
+  x: 100.0
+  y: 64.0
+  z: 100.0
+  block: IRON_BLOCK
+  button: STONE_BUTTON
+
+additional_block_location:
+  world: world
+  x: 101.0
+  y: 64.0
+  z: 100.0
+  block: DIAMOND_BLOCK
+
+messages:
+  - text: "Первое сообщение"
+    delay: 2.0
+  - text: "Второе сообщение"
+    delay: 3.0

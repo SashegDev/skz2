@@ -1,0 +1,17 @@
+# resources/config.yml
+
+# Название целевого мира для эффекта malus
+world_name: world_nether
+
+# Продолжительность эффекта в секундах
+effect_duration: 5
+
+# Листы
+whitelist_players:
+  - Player1
+
+# Дистанция до пиздеца
+distance: 7700
+
+# Название кастомного мира для компаса
+custom_void_world_name: void
